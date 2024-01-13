@@ -1,0 +1,2226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    background-color: #000;
+}
+.heade{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(/images/PK-en-20230904-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    border-bottom: 8px solid rgb(36, 36, 36);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 45%;
+}
+.logo img{
+    width: 30%;
+}
+
+.button {
+    align-self: center;
+}
+
+.button button{
+    color: white;
+  background-color: #e50914;
+    width: 82px;
+    height: 36px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+.headings-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.head-headings{
+    text-align: center;
+}
+.head-headings h1 {
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 20px;
+}
+.head-headings p {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.head-headings h3 {
+    color: white;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+.search-btn{
+    display: flex;
+    gap: 0.5em;
+    /* position: relative; */
+}
+
+
+.search-btn input{
+    font-size: 16px;
+    width: 344.75px;
+    height: 24px;
+    color: #ffffff;
+    padding: 24px;
+    background-color: #000;
+    opacity: 0.7;
+    border: 2px solid #767676;
+    border-radius: 5px;
+    /* position: relative; */
+}
+
+
+.search-btn label {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 14px;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+
+.search{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.input:focus+label,
+.input:valid+label{
+    font-size: 12px;
+    top: 5px;
+    left: 17px;
+    padding: 0px 5px 0px 5px;
+}
+
+.search-btn button{
+    border: 2px solid red;
+    background-color: #e50914;
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #e50914;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+.search-btn i{
+    padding-left: 10px;
+}
+.headings-and-tv{
+    border-bottom: 8px solid rgb(36, 36, 36);
+}
+.heading-tv{
+    padding: 50px;
+    display: flex;
+}
+.section-headings{
+    width: 50%;
+    text-align: left;
+    padding: 80px;
+}
+.section-headings h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+}
+.section-headings h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.tv{
+    display: flex;
+    position: relative;
+}
+.tv img{
+    width: 80%;
+    position: relative;
+    z-index: 1;
+}
+.tv video{
+    width: 62%;
+    position: absolute;
+    top: 67px;
+    left: 57px;
+}
+
+.anim-headings{
+    padding: 50px;
+    border-bottom: 8px solid rgb(36, 36, 36);
+}
+.anim-heading{
+    display: flex;
+}
+.anim{
+    width: 50%;
+    position: relative;
+}
+.anim img{
+    width: 90%;
+}
+.anim-btn{
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: #000;
+    opacity: 1;
+    display: flex;
+    width: 50%;
+    height: 25%;
+    padding: 12px;
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+}
+.anim-btn img{
+    width: 26%;
+}
+.anim-btn-headings{
+    width: 50%;
+    text-align: center;
+    padding-top: 15px;
+}
+.anim-btn h4{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.anim-btn p{
+    color: #0071eb;
+    font-size: 14px;
+}
+.anim-icon{
+    width: 10%;
+    padding-top: 15px;
+    position: relative;
+    left: 7%;
+}
+.anim-icon a i{
+    padding-top: 10px;
+    font-size: 1.4em;
+}
+.anim-head{
+    width: 45%;
+    padding: 80px 0px 0px 30px;
+}
+.anim-head h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+}
+.anim-head h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.only-headings{
+    height: 70vh;
+    padding: 60px 0px 0px 230px;
+    border-bottom: 8px solid rgb(36, 36, 36);
+}
+.only-heading{
+    width: 37%;
+}
+.only-headings h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+}
+.only-headings h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.kids-profile{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    border-bottom: 8px solid rgb(36, 36, 36);
+
+}
+.kids-img{
+    width: 42%;
+}
+.kids-img img{
+    width: 100%;
+}
+.kids-headings{
+    width: 45%;
+    padding: 80px 0px 0px 30px;
+    position: relative;
+    right: 5%;
+}
+.kids-headings h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+}
+.kids-headings h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.accordian{
+    padding: 40px;
+    border-bottom: 8px solid rgb(56, 56, 56);
+}
+
+.accordian-heading h1{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.container{
+    padding: 20px;
+}
+.Head {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 30px;
+    font-family: 'Helvetica';
+    font-size: 24px;
+    width: 80%;
+    height: 100%;
+    margin: 8px auto;
+}
+
+.Foot{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 30px;
+    font-family: 'Helvetica';
+    font-size: 24px;
+    max-height: auto;
+    width: 80%;
+    margin: 1px auto;
+}
+
+span{
+    float: right;
+    font-size: 24px;
+}
+.accordian-heading h3{  
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 450;
+}
+
+
+.accordian-search-btn{
+    display: flex;
+    gap: 1.5em;
+    width: 50%;
+    position: relative;
+    padding-top: 15px;
+    left: 25%;
+}
+
+
+.accordian-search-btn input{
+    font-size: 16px;
+    width: 400px;
+    height: 24px;
+    color: #ffffff;
+    padding: 24px;
+    background-color: #000;
+    opacity: 0.7;
+    border: 2px solid #767676;
+    border-radius: 5px;
+}
+
+
+.accordian-search-btn label {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 14px;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+
+.accordian-search{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.accordian-search-btn button{
+    border: 2px solid red;
+    background-color: #e50914;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #e50914;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+.accordian-search-btn i{
+    padding-left: 10px;
+}
+footer{
+    padding: 60px 60px 60px 70px;
+}
+.container-2{
+    display: grid;
+    grid-gap: 0.8rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.item a{
+    color: white;
+    font-size: 14px;
+}
+.whole-footer{
+    padding: 50px;
+}
+.query{
+    margin-bottom: 10px;
+}
+.query a{
+    color: white;
+    font-size: 15px;
+}
+.whole-footer select{
+    color: white;
+    border: 2px solid #767676;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 15%;
+    padding: 8px;
+    background-color: #000;
+    opacity: 1;
+    position: relative;
+    top: 7px;
+    right: 7px;
+    margin-top: 10px;
+}
+.whole-footer p{
+    color: white;
+    font-size: 15px;
+    font-weight: 480;
+    padding-top: 20px;
+}
+
+
+/* responsive designs */
+
+
+
+
+@media screen and (max-width:1334px) {
+    .heade{
+        height: 150vh;
+    }
+    .only-headings{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:1286px){
+    .accordian-search-btn button{
+        border: 2px solid red;
+        background-color: #e50914;
+        width: 32%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        border: 2px solid #e50914;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width:1270px){
+    .section-headings{
+        width: 55%;
+        text-align: left;
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1228px){
+    .section-headings{
+        width: 58%;
+        text-align: left;
+        padding: 80px;
+    }
+    .accordian-search-btn{
+        width: 53%;
+        left: 23%;
+    }
+    .accordian-search-btn button{
+        border: 2px solid red;
+        background-color: #e50914;
+        width: 32%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: px;
+        border: 2px solid #e50914;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width:1202px){
+    .section-headings{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1184px){
+    .section-headings{
+        width: 65%;
+    }
+    .accordian-search-btn{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:1155px){
+    .section-headings{
+        width: 70%;
+    }
+.tv video{
+        width: 68%;
+        position: absolute;
+        top: 60px;
+        left: 50px;
+    }
+}
+
+@media screen and (max-width:1124px){
+    .section-headings{
+        width: 100%;
+        padding-left: 40px;
+    }
+    .tv img{
+        width: 100%;
+    }
+    .tv video{
+        width: 87%;
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+    .anim-btn-headings{
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width:1141px){
+    .tv img{
+        width: 102%;
+    }
+    .tv video{
+        width: 82%;
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+    .accordian-search-btn{
+        width:58% ;
+    }
+}
+
+@media screen and (max-width:1092px){
+    .tv img{
+        width: 100%;
+    }
+    .tv video{
+        width: 88%;
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+    .accordian-search-btn{
+        width:60% ;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width:970px){
+    .heading-tv{
+        padding: 0px;
+    }
+    .tv img{
+        width: 100%;
+    }
+    .tv video{
+        width: 85%;
+        position: absolute;
+        top: 68px;
+        left: 25px;
+    }
+    .only-headings{
+        padding: 60px 0px 0px 100px;
+    }
+    .kids-img{
+        position: relative;
+        top: 50px;
+    }
+    .kids-headings{
+        padding: 50px 0px 0px 30px;
+    }
+    .accordian-search-btn{
+        width:60% ;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width:970px){
+    .anim img{
+        width: 110%;
+        position: relative;
+        right: 10%;
+    }
+    .anim-btn img{
+        width: 28%;
+        right: 2%;
+    }
+    .anim-btn{
+        width: 65%;
+        height: 30%;
+        left: 10%;
+        bottom: 5%;
+    }
+    .anim-btn-headings{
+        padding-top: 10px;
+    }
+    .anim-head{
+        width: 50%;
+    }
+    .kids-headings{
+        width: 50%;
+    }
+    .accordian-search-btn{
+        width: 72%;
+        left: 14%;
+    }
+}
+
+@media screen and (max-width:868px){
+    .section-headings{
+        width: 150%;
+    }
+    .tv img{
+        width: 130%;
+        height: 80%;
+        right: 30%;
+        top: 5%;
+    }
+    .tv video{
+        width: 97%;
+        position: absolute;
+        top: px;
+        left: -33px;
+    }
+    .accordian-search-btn{
+        width: 75%;
+        left: 12%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .heade{
+        background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(/images/PK-en-20230904-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 179%;
+        height: 180vh;
+        border-bottom: 8px solid rgb(36, 36, 36);
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+    .logo{
+        width: 45%;
+    }
+    .logo img{
+        width: 40%;
+    }
+    
+    .button {
+        align-self: center;
+    }
+    
+    .button button{
+        color: white;
+        background-color: #e50914;
+        width: 130px;
+        height: 60px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        font-size: 26px;
+    }
+    .headings-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 46%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    .head-headings{
+        text-align: center;
+        padding: 20px;
+    }
+    .head-headings h1 {
+        font-size: 4em;
+        color: white;
+        padding-bottom: 20px;
+    }
+    .head-headings p {
+        color: white;
+        font-size: 2.2em;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    
+    .head-headings h3 {
+        color: white;
+        font-size: 1.8em;
+        padding-bottom: 10px;
+    }
+    .search-btn{
+        display: flex;
+        gap: 1rem;
+        width: 60%;
+    }
+    
+    
+    .search-btn input{
+        font-size: 16px;
+        width: 500px;
+        height: 85px;
+        color: #ffffff;
+        padding: 24px;
+        background-color: #000;
+        opacity: 0.7;
+        border: 2px solid #767676;
+        border-radius: 5px;
+    }
+    
+    
+    .search-btn label {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 25px;
+        pointer-events: none;
+        transition: 0.3s ease all;
+    }
+    
+    .search{
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    
+    .input:focus+label,
+    .input:valid+label{
+        font-size: 12px;
+        top: 5px;
+        left: 17px;
+        padding: 0px 5px 0px 5px;
+    }
+    
+    .search-btn button{
+        border: 2px solid red;
+        background-color: #e50914;
+        width: 38%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border: 2px solid #e50914;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+        position: relative;
+    }
+    .search-btn i{
+        padding-left: 10px;
+    }
+    .headings-and-tv{
+        border-bottom: 8px solid rgb(36, 36, 36);
+        width: 179%;
+    }
+    .heading-tv{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-headings{
+        width: 100%;
+        text-align: left;
+        padding: 30px;
+    }
+    .section-headings h1{
+        font-size: 3.6em;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        line-height: 100px;
+    }
+    .section-headings h3{
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .tv{
+        display: flex;
+        position: relative;
+    }
+    .tv img{
+        width: 90%;
+        position: relative;
+        z-index: 1;
+        left: 5%;
+    }
+    .tv video{
+        width: 66%;
+        position: absolute;
+        top: 20%;
+        left: 17%;
+    }
+    
+    .anim-headings{
+        padding: 50px;
+        border-bottom: 8px solid rgb(36, 36, 36);
+        width: 179%;
+    }
+    .anim-heading{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .anim{
+        width: 100%;
+        position: relative;
+    }
+    .anim img{
+        width: 100%;
+        left: 1%;
+    }
+    .anim-btn{
+        border: 2px solid gray;
+        border-radius: 15px;
+        background-color: #000;
+        opacity: 1;
+        display: flex;
+        width: 60%;
+        height: 14%;
+        padding: 12px;
+        position: absolute;
+        left: 19%;
+        bottom: 5%;
+    }
+    .anim-btn img{
+        width: 14%;
+    }
+    .anim-btn-headings{
+        width: 50%;
+        text-align: left;
+        padding-top: 15px;
+        padding-left: 30px;
+    }
+    .anim-btn h4{
+        color: white;
+        font-size: 2.1em;
+        font-weight: 500;
+    }
+    .anim-btn p{
+        color: #0071eb;
+        font-size: 22px;
+    }
+    .anim-icon{
+        width: 10%;
+        padding-top: 15px;
+        position: relative;
+        left: 30%;
+    }
+    .anim-icon a i{
+        padding-top: 10px;
+        font-size: 2.5em;
+    }
+    .anim-head{
+        width: 100%;
+        padding: 40px;
+    }
+    .anim-head h1{
+        font-size: 3.7rem;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+    }
+    .anim-head h3{
+        color: white;
+        font-size: 2.1rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .only-headings{
+        text-align: center;
+        height: 100vh;
+        padding: 100px 0px 0px 0px;
+        border-bottom: 12px solid rgb(36, 36, 36);
+        width: 179%;
+    }
+    .only-heading{
+        width: 100%;
+    }
+    .only-headings h1{
+        font-size: 3.5rem;
+        color: white;
+        font-weight: 700;
+    }
+    .only-headings h3{
+        line-height: 60px;
+        color: white;
+        font-size: 2.1rem;
+        font-weight: 400;
+    }
+    .kids-profile{
+        width: 179%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        border-bottom: 12px solid rgb(36, 36, 36);
+    
+    }
+    .kids-img{
+        width: 104%;
+    }
+    .kids-img img{
+        width: 90%;
+    }
+    .kids-headings{
+        width: 109%;
+        text-align: center;
+        padding: 40px;
+    }
+    .kids-headings h1{
+        font-size: 3.7rem;
+        color: white;
+        font-weight: 700;
+        line-height: 100px;
+    }
+    .kids-headings h3{
+        color: white;
+        font-size: 1.9rem;
+        font-weight: 500;
+        padding-left: 40px;
+    }
+    .accordian{
+        padding: 40px;
+        border-bottom: 12px solid rgb(56, 56, 56);
+        width: 179%;
+    }
+    
+    .accordian-heading h1{
+        font-size: 4em;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+    }
+    .container{
+        padding: 10px;
+    }
+    .Head {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        padding: 30px;
+        font-family: 'Helvetica';
+        font-size: 30px;
+        width: 100%;
+        height: 100%;
+        margin: 8px auto;
+    }
+    
+    .Foot{
+        background-color: rgb(56, 56, 56);
+        color: white;
+        padding: 30px;
+        font-family: 'Helvetica';
+        font-size: 30px;
+        max-height: auto;
+        width: 100%;
+        margin: 1px auto;
+    }
+    
+    span{
+        float: right;
+        font-size: 30px;
+    }
+    .accordian-heading h3{  
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 450;
+        padding-top: 40px;
+    }
+    
+    
+    .accordian-search-btn{
+        display: flex;
+        gap: 1.5em;
+        width: 70%;
+        position: relative;
+        padding-top: 15px;
+    }
+    
+    
+    .accordian-search-btn input{
+        font-size: 16px;
+        width: 600px;
+        height: 100px;
+        color: #ffffff;
+        padding: 24px;
+        background-color: #000;
+        opacity: 0.7;
+        border: 2px solid #767676;
+        border-radius: 5px;
+    }
+    
+    
+    .accordian-search-btn label {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 22px;
+        pointer-events: none;
+        transition: 0.3s ease all;
+    }
+    
+    .accordian-search{
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    .accordian-search-btn button{
+        border: 2px solid red;
+        background-color: #e50914;
+        width: 180px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border: 2px solid #e50914;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 2em;
+        font-weight: 700;
+    }
+    .accordian-search-btn i{
+        padding-left: 10px;
+    }
+    footer{
+        width: 179%;
+        padding: 60px 60px 60px 70px;
+    }
+    .container-2{
+        width: 110%;
+        display: grid;
+        grid-gap: 0.8rem;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+    .item a{
+        color: white;
+        font-size: 26px;
+    }
+    .whole-footer{
+        padding: 50px;
+    }
+    .query{
+        margin-bottom: 10px;
+    }
+    .query a{
+        color: white;
+        font-size: 26px;
+    }
+    .whole-footer select{
+        color: white;
+        border: 2px solid #767676;
+        border-radius: 5px;
+        font-size: 26px;
+        font-weight: 600;
+        width: 15%;
+        padding: 8px;
+        background-color: #000;
+        opacity: 1;
+        position: relative;
+        top: 7px;
+        right: 7px;
+        margin-top: 10px;
+    }
+    .whole-footer p{
+        color: white;
+        font-size: 26px;
+        font-weight: 480;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .heade{
+        background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(/images/PK-en-20230904-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 179%;
+        height: 250vh;
+        border-bottom: 8px solid rgb(36, 36, 36);
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+    .logo{
+        width: 45%;
+    }
+    .logo img{
+        width: 50%;
+    }
+    
+    .button {
+        align-self: center;
+    }
+    
+    .button button{
+        color: white;
+        background-color: #e50914;
+        width: 140px;
+        height: 50px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        font-size: 26px;
+    }
+    .head-headings{
+        text-align: center;
+        padding: 15px;
+    }
+    .head-headings h1 {
+        font-size: 3.8em;
+        color: white;
+    }
+    .head-headings p {
+        color: white;
+        font-size: 2.1em;
+        font-weight: 500;
+    }
+    
+    .head-headings h3 {
+        color: white;
+        font-size: 2.3em;
+        font-weight: 500;
+    }
+    .search-btn{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        bottom: 10%;
+    }
+    
+    .search-btn input{
+        font-size: 16px;
+        width: 100%;
+        height: 90px;
+        color: #ffffff;
+        padding: 24px;
+        background-color: #000;
+        opacity: 0.7;
+        border: 2px solid #767676;
+        border-radius: 5px;
+        position: relative;
+        left: 0%;
+    }
+    
+    
+    .search-btn label {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 25px;
+        pointer-events: none;
+        transition: 0.3s ease all;
+    }
+    
+    .search{
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    
+    .input:focus+label,
+    .input:valid+label{
+        font-size: 23px;
+        top: 5px;
+        left: 17px;
+        padding: 0px 5px 0px 5px;
+    }
+    
+    .search-btn button{
+        background-color: #e50914;
+        width: 28%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 22px;
+        border: 2px solid #e50914;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        font-size: 28px;
+        font-weight: 600;
+        position: relative;
+        left: 35%;
+    }
+    .search-btn i{
+        padding-left: 10px;
+    }
+    .anim-head h3{
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    
+    
+    .accordian-search-btn{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        left: 0%;
+        padding-top: 15px;
+    }
+    
+    
+    .accordian-search-btn input{
+        font-size: 16px;
+        width: 790px;
+        height: 85px;
+        color: #ffffff;
+        padding: 24px;
+        background-color: #000;
+        opacity: 0.7;
+        border: 2px solid #767676;
+        border-radius: 5px;
+        position: relative;
+        left: 10%;
+    }
+    
+    
+    .accordian-search-btn label {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 0px;
+        left: 100px;
+        padding: 25px;
+        pointer-events: none;
+        transition: 0.3s ease all;
+    }
+    
+    .accordian-search{
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    .accordian-sea  rch-btn button{
+        border: 2px solid red;
+        background-color: #e50914;
+        width: 290px;
+        height: 90px;
+        padding: 15px;
+        border: 2px solid #e50914;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 2em;
+        font-weight: 700;
+        position: relative;
+        left: 35%;
+    }
+    .accordian-search-btn i{
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width:510px){
+    .heade{
+        background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%), url(/images/PK-en-20230904-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 211%;
+        height: 270vh;
+        border-bottom: 8px solid rgb(36, 36, 36);
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+    .logo{
+        width: 45%;
+    }
+    .logo img{
+        width: 60%;
+    }
+    
+    .button {
+        align-self: center;
+    }
+    
+    .button button{
+        color: white;
+        background-color: #e50914;
+        width: 180px;
+        height: 65px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        font-size: 30px;
+    }
+    .head-headings{
+        text-align: center;
+        padding: 15px;
+    }
+    .head-headings h1 {
+        font-size: 3.9em;
+        color: white;
+    }
+    .head-headings p {
+        color: white;
+        font-size: 2.2em;
+        font-weight: 500;
+    }
+    
+    .head-headings h3 {
+        color: white;
+        font-size: 2.4em;
+        font-weight: 500;
+    }
+    .search-btn{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        bottom: 10%;
+    }
+    
+    .search-btn input{
+        font-size: 16px;
+        width: 100%;
+        height: 100px;
+        color: #ffffff;
+        padding: 24px;
+        background-color: #000;
+        opacity: 0.7;
+        border: 2px solid #767676;
+        border-radius: 10px;
+        position: relative;
+        left: 0%;
+    }
+    
+    
+    .search-btn label {
+        color: white;
+        font-size: 33px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 25px;
+        pointer-events: none;
+        transition: 0.3s ease all;
+    }
+    
+    .search{
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    
+    .input:focus+label,
+    .input:valid+label{
+        font-size: 28px;
+        top: 5px;
+        left: 17px;
+        padding: 0px 5px 0px 5px;
+    }
+    
+    .search-btn button{
+        background-color: #e50914;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 22px;
+        border: 2px solid #e50914;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 33px;
+        font-weight: 600;
+        position: relative;
+        left: 30%;
+    }
+    .search-btn i{
+        padding-left: 10px;
+    }
+    .headings-and-tv{
+        border-bottom: 8px solid rgb(36, 36, 36);
+        width: 211%;
+    }
+    .heading-tv{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-headings{
+        width: 100%;
+        text-align: left;
+        padding: 30px;
+    }
+    .section-headings h1{
+        font-size: 4.2em;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        line-height: 100px;
+    }
+    .section-headings h3{
+        color: white;
+        font-size: 2.4rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .tv{
+        display: flex;
+        position: relative;
+    }
+    .tv img{
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        left: 0%;
+    }
+    .tv video{
+        width: 80%;
+        position: absolute;
+        top: 20%;
+        left: 12%;
+    }
+
+    .anim-headings{
+        padding: 50px;
+        border-bottom: 8px solid rgb(36, 36, 36);
+        width: 211%;
+    }
+    .anim-heading{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .anim{
+        width: 100%;
+        position: relative;
+    }
+    .anim img{
+        width: 100%;
+        left: 0%;
+    }
+    .anim-btn{
+        border: 2px solid gray;
+        border-radius: 20px;
+        background-color: #000;
+        opacity: 1;
+        display: flex;
+        width: 70%;
+        height: 23%;
+        padding: 12px;
+        position: absolute;
+        left: 15%;
+        bottom: 5%;
+    }
+    .anim-btn img{
+        width: 17%;
+    }
+    .anim-btn-headings{
+        width: 60%;
+        text-align: left;
+        padding-top: 15px;
+        padding-left: 30px;
+    }
+    .anim-btn h4{
+        color: white;
+        font-size: 2.2em;
+        font-weight: 500;
+    }
+    .anim-btn p{
+        color: #0071eb;
+        font-size: 24px;
+    }
+    .anim-icon{
+        width: 10%;
+        padding-top: 15px;
+        position: relative;
+        top: 10%;
+        left: 8%;
+    }
+    .anim-icon a i{
+        padding-top: 10px;
+        font-size: 2.5em;
+    }
+    .anim-head{
+        width: 100%;
+        padding: 40px;
+    }
+    .anim-head h1{
+        font-size: 4.2rem;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+    }
+    .anim-head h3{
+        color: white;
+        font-size: 2.2rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .only-headings{
+        text-align: center;
+        height: 150vh;
+        padding: 130px 0px 0px 0px;
+        border-bottom: 12px solid rgb(36, 36, 36);
+        width: 211%;
+    }
+    .only-heading{
+        width: 100%;
+    }
+    .only-headings h1{
+        font-size: 4rem;
+        color: white;
+        font-weight: 700;
+    }
+    .only-headings h3{
+        line-height: 50px;
+        color: white;
+        font-size: 2.7rem;
+        font-weight: 400;
+    }
+    .kids-profile{
+        width: 211%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        border-bottom: 12px solid rgb(36, 36, 36);
+    
+    }
+    .kids-img{
+        width: 100%;
+    }
+    .kids-img img{
+        width: 100%;
+    }
+    .kids-headings{
+        width: 109%;
+        text-align: center;
+    }
+    .kids-headings h1{
+        font-size: 4.3rem;
+        color: white;
+        font-weight: 700;
+        line-height: 150px;
+    }
+    .kids-headings h3{
+        line-height: 40px;
+        color: white;
+        font-size: 2.2rem;
+        font-weight: 500;
+        padding-left: 40px;
+    }
+    .accordian{
+        padding: 40px;
+        border-bottom: 12px solid rgb(56, 56, 56);
+        width: 211%;
+    }
+    
+    .accordian-heading h1{
+        font-size: 4.7em;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+    }
+    .container{
+        padding: 0px;
+        width: 100%;
+    }
+    .Head {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        padding: 30px;
+        font-family: 'Helvetica';
+        font-size: 30px;
+        width: 90%;
+        height: 100%;
+        margin: 8px auto;
+    }
+    
+    .Foot{
+        background-color: rgb(56, 56, 56);
+        color: white;
+        padding: 30px;
+        font-family: 'Helvetica';
+        font-size: 30px;
+        max-height: auto;
+        width: 100%;
+        margin: 1px auto;
+    }
+    
+    span{
+        float: right;
+        font-size: 30px;
+    }
+    .accordian-heading h3{  
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 450;
+        padding-top: 40px;
+    }
+    
+    
+    .accordian-search-btn{
+        display: flex;
+        gap: 1.5em;
+        width: 100%;
+        position: relative;
+        padding-top: 15px;
+    }
+    
+    
+    .accordian-search-btn input{
+        font-size: 16px;
+        width: 90%;
+        height: 100px;
+        color: #ffffff;
+        padding: 24px;
+        background-color: #000;
+        opacity: 0.7;
+        border: 2px solid #767676;
+        border-radius: 5px;
+        position: relative;
+        left: 5%;
+    }
+    
+    
+    .accordian-search-btn label {
+        color: white;
+        font-size: 2.4rem;
+        position: absolute;
+        top: 0px;
+        left: 40px;
+        padding: 22px;
+        pointer-events: none;
+        transition: 0.3s ease all;
+    }
+    
+    .accordian-search{
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    .accordian-search-btn button{
+        border: 2px solid red;
+        background-color: #e50914;
+        width: 40%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border: 2px solid #e50914;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 2.2em;
+        font-weight: 700;
+        position: relative;
+        left: 30%;
+    }
+    .accordian-search-btn i{
+        padding-left: 10px;
+    }
+    footer{
+        width: 211%;
+    }
+    .container-2{
+        width: 100%;
+        display: grid;
+        grid-gap: 0.8rem;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .item a{
+        color: white;
+        font-size: 26px;
+    }
+    .whole-footer{
+        padding: 50px;
+    }
+    .query{
+        margin-bottom: 10px;
+    }
+    .query a{
+        color: white;
+        font-size: 26px;
+    }
+    .whole-footer select{
+        color: white;
+        border: 2px solid #767676;
+        border-radius: 5px;
+        font-size: 26px;
+        font-weight: 600;
+        width: 25%;
+        padding: 8px;
+        background-color: #000;
+        opacity: 1;
+        position: relative;
+        top: 7px;
+        right: 7px;
+        margin-top: 10px;
+    }
+    .whole-footer p{
+        color: white;
+        font-size: 26px;
+        font-weight: 480;
+        padding-top: 20px;
+    }
+}
+
+
+@media screen and (max-width:510px){
+    .heade{
+        background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%), url(/images/PK-en-20230904-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 211%;
+        height: 308vh;
+        border-bottom: 8px solid rgb(36, 36, 36);
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 50px;
+        padding-top: 30px;
+    }
+    .logo{
+        width: 45%;
+    }
+    .logo img{
+        width: 90%;
+    }
+    
+    .button {
+        align-self: center;
+    }
+    
+    .button button{
+        color: white;
+        background-color: #e50914;
+        width: 160px;
+        height: 68px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        font-size: 30px;
+    }
+    .head-headings{
+        text-align: center;
+        padding: 32px;
+    }
+    .head-headings h1 {
+        font-size: 4em;
+        color: white;
+    }
+    .head-headings p {
+        color: white;
+        font-size: 2.6em;
+        font-weight: 400;
+    }
+    
+    .head-headings h3 {
+        padding: 50px;
+        color: white;
+        font-size: 2.7em;
+        font-weight: 400;
+    }
+    .search-btn{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+    
+    .search-btn input{
+        font-size: 16px;
+        width: 100%;
+        height: 100px;
+        color: #ffffff;
+        padding: 24px;
+        background-color: #000;
+        opacity: 0.7;
+        border: 2px solid #767676;
+        border-radius: 10px;
+        position: relative;
+        left: 0%;
+    }
+    
+    
+    .search-btn label {
+        color: white;
+        font-size: 36px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 25px;
+        pointer-events: none;
+        transition: 0.3s ease all;
+    }
+    
+    .search{
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    
+    .input:focus+label,
+    .input:valid+label{
+        font-size: 28px;
+        top: 5px;
+        left: 17px;
+        padding: 0px 5px 0px 5px;
+    }
+    
+    .search-btn button{
+        background-color: #e50914;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 22px;
+        border: 2px solid #e50914;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 33px;
+        font-weight: 600;
+        position: relative;
+        left: 25%;
+    }
+    .search-btn i{
+        padding-left: 10px;
+    }
+    .headings-and-tv{
+        border-bottom: 8px solid rgb(36, 36, 36);
+        width: 211%;
+    }
+    .heading-tv{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-headings{
+        width: 100%;
+        text-align: left;
+        padding: 30px;
+    }
+    .section-headings h1{
+        font-size: 4.2em;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        line-height: 100px;
+    }
+    .section-headings h3{
+        color: white;
+        font-size: 2.4rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .tv{
+        display: flex;
+        position: relative;
+    }
+    .tv img{
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        left: 0%;
+    }
+    .tv video{
+        width: 80%;
+        position: absolute;
+        top: 20%;
+        left: 12%;
+    }
+
+    .anim-headings{
+        padding: 50px;
+        border-bottom: 8px solid rgb(36, 36, 36);
+        width: 211%;
+    }
+    .anim-heading{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .anim{
+        width: 100%;
+        position: relative;
+    }
+    .anim img{
+        width: 100%;
+        left: 0%;
+    }
+    .anim-btn{
+        border: 2px solid gray;
+        border-radius: 20px;
+        background-color: #000;
+        opacity: 1;
+        display: flex;
+        width: 80%;
+        height: 28%;
+        padding: 12px;
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+    }
+    .anim-btn img{
+        width: 20%;
+    }
+    .anim-btn-headings{
+        width: 60%;
+        text-align: left;
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+    .anim-btn h4{
+        color: white;
+        font-size: 1.7em;
+        font-weight: 500;
+    }
+    .anim-btn p{
+        color: #0071eb;
+        font-size: 24px;
+    }
+    .anim-icon{
+        width: 10%;
+        padding-top: 15px;
+        position: relative;
+        top: 0%;
+        left: 8%;
+    }
+    .anim-icon a i{
+        padding-top: 8px;
+        font-size: 2.5em;
+    }
+    .anim-head{
+        width: 100%;
+        padding: 40px;
+    }
+    .anim-head h1{
+        font-size: 4.2rem;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+    }
+    .anim-head h3{
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .only-headings{
+        text-align: center;
+        height: 170vh;
+        padding: 100px 0px 0px 0px;
+        border-bottom: 12px solid rgb(36, 36, 36);
+        width: 211%;
+    }
+    .only-heading{
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+    }
+    .only-headings h1{
+        font-size: 4.8rem;
+        color: white;
+        font-weight: 700;
+    }
+    .only-headings h3{
+        line-height: 50px;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .kids-profile{
+        width: 211%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        border-bottom: 12px solid rgb(36, 36, 36);
+    
+    }
+    .kids-img{
+        width: 100%;
+    }
+    .kids-img img{
+        width: 105%;
+    }
+    .kids-headings{
+        width: 110%;
+        text-align: center;
+    }
+    .kids-headings h1{
+        font-size: 4.3rem;
+        color: white;
+        font-weight: 700;
+        line-height: 80px;
+    }
+    .kids-headings h3{
+        line-height: 40px;
+        color: white;
+        font-size: 2.2rem;
+        font-weight: 500;
+        line-height: 50px;
+    }
+    .accordian{
+        border-bottom: 12px solid rgb(56, 56, 56);
+        width: 211%;
+    }
+    
+    .accordian-heading h1{
+        font-size: 4em;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+    }
+    .container{
+        width: 100%;
+    }
+    .Head {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        padding: 30px;
+        font-family: 'Helvetica';
+        font-size: 2.5em;
+        width: 100%;
+        height: 100%;
+        margin: 8px auto;
+    }
+    
+    .Foot{
+        background-color: rgb(56, 56, 56);
+        color: white;
+        padding: 30px;
+        font-family: 'Helvetica';
+        font-size: 2.6em;
+        max-height: auto;
+        width: 100%;
+        margin: 1px auto;
+    }
+    
+    span{
+        float: right;
+        font-size: 30px;
+    }
+    .accordian-heading h3{
+        padding: 10px;  
+        color: white;
+        font-size: 2.9rem;
+        text-align: center;
+        font-weight: 450;
+        padding-top: 40px;
+    }
+    
+    
+    .accordian-search-btn{
+        display: flex;
+        gap: 1.5em;
+        width: 100%;
+        position: relative;
+        padding-top: 15px;
+    }
+    
+    
+    .accordian-search-btn input{
+        font-size: 16px;
+        width: 90%;
+        height: 100px;
+        color: #ffffff;
+        padding: 24px;
+        background-color: #000;
+        opacity: 0.7;
+        border: 2px solid #767676;
+        border-radius: 5px;
+        position: relative;
+        left: 5%;
+    }
+    
+    
+    .accordian-search-btn label {
+        color: white;
+        font-size: 2.4rem;
+        position: absolute;
+        top: 0px;
+        left: 40px;
+        padding: 22px;
+        pointer-events: none;
+        transition: 0.3s ease all;
+    }
+    
+    .accordian-search{
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    .accordian-search-btn button{
+        border: 2px solid red;
+        background-color: #e50914;
+        width: 55%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border: 2px solid #e50914;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 2.2em;
+        font-weight: 700;
+        position: relative;
+        left: 22%;
+    }
+    .accordian-search-btn i{
+        padding-left: 10px;
+    }
+    footer{
+        padding: 0px;
+        width: 211%;
+    }
+    .container-2{
+        width: 100%;
+        display: grid;
+        grid-gap: 0.8rem;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    }
+    .item a{
+        color: white;
+        font-size: 1.8em;
+    }
+    .whole-footer{
+        padding: 50px;
+    }
+    .query{
+        margin-bottom: 10px;
+    }
+    .query a{
+        color: white;
+        font-size: 1.8em;
+    }
+    .whole-footer select{
+        color: white;
+        border: 2px solid #767676;
+        border-radius: 7px;
+        font-size: 1.8em;
+        font-weight: 500;
+        width: 40%;
+        padding: 8px;
+        background-color: #000;
+        opacity: 1;
+        position: relative;
+        top: 7px;
+        right: 7px;
+        margin-top: 10px;
+    }
+    .whole-footer option{
+        font-size: 14px;
+    }
+    .whole-footer p{
+        color: white;
+        font-size: 1.8em;
+        font-weight: 480;
+        padding-top: 20px;
+    }
+}
